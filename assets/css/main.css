@@ -56,7 +56,7 @@ Section css
   --ratting-color: #FFB32B;
   --pragraph-color: #535353;
   --object-color: #CFCFCF;
-  --icon-color: #898989;
+  --icon-color: #8989891c;
   --bg-one: #FFF7F4;
   --bg-two: #FAF8FF;
   --bg-three: #2f16;
@@ -563,14 +563,16 @@ p {
 }
 .footer-top .widget-items .content-area .footer-social li a {
   transition: all 0.5s;
+  color: var(--pragraph-color);
 }
 .footer-top .widget-items .content-area .footer-social li a:hover i {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 .footer-top .widget-items .content-area .footer-social li a i {
-  color: var(--icon-color);
+  color: var(--pragraph-color);
   transition: all 0.5s;
-  font-size: 20px;
+  font-size: 18px;
+  opacity: 0.6;
 }
 .footer-top .widget-items p {
   font-size: 18px;
@@ -765,7 +767,7 @@ p {
 }
 .header-wrapper .main-menu li a i {
   margin-left: 5px;
-  font-size: 19px;
+  font-size: 16px;
 }
 .header-wrapper .main-menu li .sub-menu {
   margin-top: 8px;
@@ -3993,6 +3995,7 @@ p {
   .footer-bottom .footer-bottom-link {
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 10px;
   }
   .footer-bottom .footer-bottom-link li a {
     margin-right: 10px;

@@ -1,5 +1,15 @@
 "user strict";
 
+/* Use jQuery
+0.1 Sticky Header
+1. Owl Carousel Slider
+2. Magnific Popup
+3. Counter
+4. Wow
+5. Smooth Scroll
+6. Preloader
+*/
+
 $(document).ready(function () {
 	/* Owl Carousel Slider*/
 	$(".tweet-slider").owlCarousel({
@@ -35,7 +45,6 @@ $(document).ready(function () {
 			},
 		},
 	});
-
 	$(".partner-slider").owlCarousel({
 		loop: true,
 		margin: 30,
@@ -95,7 +104,6 @@ $(document).ready(function () {
 			},
 		},
 	});
-
 	$(".pricing-customize-wrapper").owlCarousel({
 		loop: true,
 		margin: 0,
